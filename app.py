@@ -21,7 +21,7 @@ using PdfReader method from PyPDF2 package
 will return the pdf object like this <PyPDF2._reader.PdfReader object at 0x1003126d0>
 """
 
-pdf = "employee-hand-book.pdf"
+pdf = "" # path of your pdf file goes here
 pdf_reader = PdfReader(pdf)
 
 
